@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(252, 220, 212);
+}
+.header {
+  background-color: rgb(255, 133, 103);
+  padding: 0.5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+
+.addbtn {
+  padding: 8px;
+  position: relative;
+  left: 15px;
+  top: 20px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 133, 103);
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+}
+
+mat-toolbar {
+  margin-bottom: 20px;
+}
+
+mat-toolbar > span {
+  margin-left: 10px;
+}
+
+.content-wrapper {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.container-wrapper {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 22px;
+}
+mat-card {
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 400px;
+  margin: 0 25px 25px 0;
+}
+
+.list {
+  border: solid 1px rgb(255, 97, 49);
+  min-height: 60px;
+  border-radius: 4px;
+}
+
+app-new-task {
+  margin-bottom: 30px;
+  border-color: rgb(255, 162, 101);
+}
+
+.empty-label {
+  font-size: 2em;
+  padding-top: 10px;
+  text-align: center;
+  opacity: 0.2;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms;
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
